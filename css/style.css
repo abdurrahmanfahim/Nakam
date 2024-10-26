@@ -25,7 +25,7 @@ body {
 
 .navbar {
     padding-top: 80px;
-    margin-bottom: 107px;
+    margin-bottom: 56px;
 }
 
 .navbar .navbar-brand img {
@@ -51,19 +51,94 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
+}
+
+.navbar .cart i {
     background: linear-gradient(270deg, #FF5A2F -2.47%, #FF6C44 103.28%);
+    border: 1px solid #FF5A2F;
+    border-radius: 15px;
+    padding: 15px 27px;
+    color: #fff;
+    font-size: 30px;
+    transition: all linear 0.4s;
 }
 
-.navbar .cart img {
-    padding: 16px 27px;
+.navbar .cart i:hover {
+    background: transparent;
+    color: #FF5A2F;
 }
-
-
-
-
 
 /* ========= Navbar End ========= */
+
+/* ========= Banner Start ========= */
+
+#banner {
+    padding: 46px 0 100px 0;
+}
+
+#banner .container .left h1 {
+    width: 575.206px;
+    color: #1E1E1E;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+#banner .container .left p {
+    width: 467px;
+    color: #2A2C41;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 45px;
+}
+
+#banner .container .left a {
+    border-radius: 15px;
+    background: #FF5A2F;
+    color: #FBFBFB;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 18px 48px;
+    border: 1px solid #FF5A2F;
+    transition: all 0.4s linear;
+}
+
+#banner .container .left a:hover {
+    background: transparent;
+    color: #FF5A2F;
+}
+
+#banner .container .right .image {
+    -webkit-box-shadow: 0px 0px 300px -102px rgba(255,90,47,1);
+    -moz-box-shadow: 0px 0px 300px -102px rgba(255,90,47,1);
+    box-shadow: 0px 0px 300px -102px rgba(255,90,47,1);
+    width: 429.426px;
+    height: 436.361px;
+    background: url("../images/mockup-graphics-Dhs0h7LdlN4-unsplash.jpg");
+    border-radius: 50%;
+    /* object-fit: cover; */
+    /* overflow: hidden; */
+    background-position: 53.5% 45%;
+    background-size: 147%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========= Banner End ========= */
 
 
 
