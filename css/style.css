@@ -1,0 +1,75 @@
+/* ========= Common Css Start ========= */
+
+*, .row, .col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11  {
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans";
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    background: #FBFBFB;
+}
+
+/* ========= Common Css End ========= */
+
+/* ========= Navbar Start ========= */
+
+.navbar {
+    padding-top: 80px;
+    margin-bottom: 107px;
+}
+
+.navbar .navbar-brand img {
+    width: 184.483px;
+    height: 46.86px;
+}
+
+.navbar .nav-item .nav-link {
+    padding: 0 28px;
+    margin-top: 15px;
+}
+
+.navbar .nav-item a {
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navbar .cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background: linear-gradient(270deg, #FF5A2F -2.47%, #FF6C44 103.28%);
+}
+
+.navbar .cart img {
+    padding: 16px 27px;
+}
+
+
+
+
+
+/* ========= Navbar End ========= */
+
+
+
+
+
+
+
+
+
