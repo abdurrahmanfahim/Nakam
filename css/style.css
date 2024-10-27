@@ -73,7 +73,7 @@ body {
 /* ========= Banner Start ========= */
 
 #banner {
-    padding: 46px 0 100px 0;
+    padding: 46px 0 90px 0;
 }
 
 #banner .container .left h1 {
@@ -128,17 +128,190 @@ body {
     background-size: 147%;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* ========= Banner End ========= */
+
+/* ========= About Start ========= */
+
+#about {
+    padding: 78px 0 150px 0;
+}
+
+#about .container .left .left-a {
+    column-gap: 20px;
+    align-items: center;
+}
+
+#about .container .left .left-b {
+    border-radius: 25px;
+    background: #D9D9D9;
+    width: 348px;
+    height: 440px;
+}
+
+#about .container .left .left-c {
+    row-gap: 20px;
+}
+
+#about .container .left .left-d {
+    border-radius: 25px;
+    background: #D9D9D9;
+    width: 241px;
+    height: 202px;
+}
+
+#about .container .left .left-e {
+    border-radius: 25px;
+    background: #D9D9D9;
+    width: 201px;
+    height: 320px;
+}
+
+#about .container .right h2 {
+    width: 162px;
+    color: #FF724C;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+#about .container .right h3 {
+    max-width: 516px;
+    color: #1E1E1E;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.62px;
+    margin-bottom: 30px;
+}
+
+#about .container .right p {
+    max-width: 404px;
+    color: #2A2C41;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 45px;
+}
+
+#about .container .right a {
+    border-radius: 15px;
+    background: #FF5A2F;
+    color: #FBFBFB;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 18px 48px;
+    border: 1px solid #FF5A2F;
+    transition: all 0.4s linear;
+}
+
+#about .container .right a:hover {
+    background: transparent;
+    color: #FF5A2F;
+}
+
+/* ========= About End ========= */
+
+/* ========= Recommendations Start =========  */
+
+#recommend {
+    background: #FFF8F6;
+    padding: 120px 0;
+}
+
+#recommend .container .heading {
+    margin-bottom: 60px;
+}
+
+#recommend .container .heading h2 {
+    color: #FF724C;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 26px;
+}
+
+#recommend .container .heading h3 {
+    color: #1E1E1E;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.62px;
+}
+
+#recommend .container .card-box .card {
+    width: 346px;
+    height: 487px;
+    border: 0px;
+    border-radius: 25px;
+    background: #FFF;
+    padding: 54px 0 34px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+#recommend .container .card-box .card .image {
+    width: 192.308px;
+    height: 195.414px;
+    background: #D9D9D9;
+    border-radius: 50%;
+}
+
+#recommend .container .card-box .card .txt {
+    text-align: center;
+}
+
+#recommend .container .card-box .card .txt h6 {
+    color: #2A2C41;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 26px;
+}
+
+#recommend .container .card-box .card .txt p {
+    color: #2A2C41;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+#recommend .container .card-box .card .txt span {
+    color: #FF6840;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* ========= Recommendations End ========= */
+
+/* ========= Services Start ========= */
+
+
+
+
+
+
+/* ========= Services End ========= */
+
+
+
+
+
+
 
 
 
