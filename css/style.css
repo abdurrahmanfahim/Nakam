@@ -300,10 +300,60 @@ body {
 
 /* ========= Services Start ========= */
 
+#services {
+    padding: 150px 0;
+}
 
+#services .container .heading h2 {
+    color: #FF724C;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+#services .container .heading h3 {
+    width: 602px;
+    color: #1E1E1E;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    margin-bottom: 60px;
+}
 
+#services .container .card img {
+    width: 74.323px;
+    height: 72.559px;
+}
 
+#services .container .container .card img:hover {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(51deg) brightness(107%) contrast(101%);
+}
+
+#services .container .card {
+    width: 160px;
+    height: 180px;
+    border: 0;
+    border-radius: 25px;
+    background: #FFF;
+}
+
+#services .container .card.active {
+    background: linear-gradient(270deg, #FF5A2F -2.47%, #FF6C44 103.28%);
+    box-shadow: 0px 30px 50px 0px rgba(107, 107, 107, 0.25);
+}
+
+#services .container .card-box p {
+    margin: 25px 16px;
+    color: #2A2C41;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 /* ========= Services End ========= */
 
