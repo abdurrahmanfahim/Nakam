@@ -19,6 +19,15 @@ body {
     background: #FBFBFB;
 }
 
+h2 {
+    color: #FF724C;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
 /* ========= Common Css End ========= */
 
 /* ========= Navbar Start ========= */
@@ -166,16 +175,6 @@ body {
     height: 320px;
 }
 
-#about .container .right h2 {
-    width: 162px;
-    color: #FF724C;
-    font-size: 37px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 25px;
-}
-
 #about .container .right h3 {
     max-width: 516px;
     color: #1E1E1E;
@@ -226,15 +225,6 @@ body {
 
 #recommend .container .heading {
     margin-bottom: 60px;
-}
-
-#recommend .container .heading h2 {
-    color: #FF724C;
-    font-size: 37px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 26px;
 }
 
 #recommend .container .heading h3 {
@@ -304,15 +294,6 @@ body {
     padding: 150px 0;
 }
 
-#services .container .heading h2 {
-    color: #FF724C;
-    font-size: 37px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 25px;
-}
-
 #services .container .heading h3 {
     width: 602px;
     color: #1E1E1E;
@@ -347,7 +328,7 @@ body {
 }
 
 #services .container .card-box p {
-    margin: 25px 16px;
+    margin: 25px 24px;
     color: #2A2C41;
     text-align: center;
     font-size: 26px;
@@ -358,15 +339,47 @@ body {
 
 /* ========= Services End ========= */
 
+.term {
+    margin-top: 150px;
+}
 
+#services .container .heading-2 h3 {
+    color: #1E1E1E;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    margin-bottom: 60px;
+}
 
+#services .term .t-card .card-box-2 {
+    width: 346px;
+    height: 397px;
+    border-radius: 25px;
+    background: #D9D9D9;
+    position: relative;
+}
 
+#services .term .t-card .card-box-2 .txt-box {
+    border-radius: 0px 0px 25px 25px;
+    background: #FFF;
+    width: 346px;
+    height: 110px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
-
-
-
-
-
+#services .term .t-card .card-box-2 .txt-box p {
+    color: #2A2C41;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 39px 75px;
+}
 
 
 
