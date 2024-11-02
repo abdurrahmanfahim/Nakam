@@ -1,0 +1,118 @@
+@media (max-width: 575.99px) {
+
+    .row>* {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: 0;
+        padding-left:0;
+        margin-top:0;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    .navbar {
+        padding-top: 30px;
+    }
+
+    .navbar .nav-item a {
+        text-align: start;
+    }
+
+    .navbar .nav-item .nav-link {
+        padding: 0 2px;
+        margin-top: 15px;
+    }
+
+    .navbar .cart {
+        justify-content: start;
+    }
+
+    #banner {
+        padding: 0 0 75px 0;
+    }
+
+    #banner .container .left h1 {
+        width: 100%;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    #banner .container .left p {
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    #banner .container .left a {
+        font-size: 18px;
+        padding: 15px 31px;
+    }
+
+    #banner .container .right {
+        display: none;
+    }
+
+    #about {
+        padding: 0 0 50px 0;
+    }
+
+    #about .container .left  {
+        display: none;
+    }
+
+    #about .container .right h3 {
+        font-size: 35px;
+    }
+
+    #about .container .right p {
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    #about .container .right a {
+        font-size: 18px;
+        padding: 15px 31px;
+    }
+    
+    #recommend {
+        background: #FFF8F6;
+        padding: 60px 0;
+    }
+
+    #recommend .container .heading h3 {
+        font-size: 37px;
+    }
+
+    #recommend .container .row {
+        display: flex;
+        gap: 28px;
+    }
+
+    #services {
+        padding: 75px 0;
+    }
+
+    #services .container .card-box p {
+        font-size: 1.25rem;
+    }
+
+    #services .container .heading h3 {
+        font-size: 35px;
+        width: 100%;
+    }
+
+    #services .container .card .row {
+        flex-direction: row;
+    }
+
+    #services .container .card {
+        margin: 0;
+    }
+
+}
