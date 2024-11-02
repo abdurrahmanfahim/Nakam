@@ -343,6 +343,10 @@ h2 {
     margin-top: 150px;
 }
 
+.term .bg {
+    
+}
+
 #services .container .heading-2 h3 {
     color: #1E1E1E;
     font-size: 54px;
@@ -381,7 +385,57 @@ h2 {
     padding: 39px 75px;
 }
 
+/* ========= Download Start ========= */
+
+#download .container .text h3 {
+    width: 522px;
+    color: #1E1E1E;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    margin: 25px 0 30px 0;
+}
+
+#download .container .text p {
+    width: 522px;
+    color: #2A2C41;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 45px;
+}
+
+#download .container .text .btn-1 a {
+    border-radius: 15px;
+    background: #FF5A2F;
+    color: #FBFBFB;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 18px 48px;
+    border: 1px solid #FF5A2F;
+    transition: all 0.4s linear;
+}
+
+#download .container .text .btn-1 a:hover {
+    background: transparent;
+    color: #FF5A2F;
+}
+
+#download .container .text .btn-1 {
+    column-gap: 25px;
+}
 
 
 
 
+
+
+
+
+
+/* ========= Download End =========  */
