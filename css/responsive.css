@@ -1,3 +1,175 @@
+
+@media (max-width: 1399.99px) {
+    
+    
+
+
+
+}
+
+/* ========================================================= */
+
+@media (max-width: 1199.99px) {
+
+    #banner .container .left h1 {
+        font-size: 50px;
+    }
+    
+    #about 
+    {
+        padding: 78px 0 0 0;
+        /* text-align: center; */
+    }
+    
+    
+    #about .container .right h3 
+    {
+        max-width: 100%;
+        font-size: 50px;
+    }
+    
+    #about .container .right p 
+    {
+        max-width: 100%;
+    }
+
+    #recommend {
+        text-align: center;
+    }
+    
+    .term .t-card, .term
+    {
+        text-align: center;
+    }
+    
+    #download .row 
+    {
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #download h3 
+    {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #footer .right
+    {
+        width: 100%;
+    }
+
+/* 
+    #download .container .text h3 {
+        width: 634px;
+        font-size: 40px;
+    } */
+
+    #about .container .left .left-b {
+        width: 237px;
+        height: 300px;
+    }
+
+    #about .container .left .left-d {
+        width: 164px;
+        height: 138px;
+    }
+    #about .container .left .left-e {
+        width: 137px;
+        height: 218px;
+    }
+
+    #recommend .container .heading h3 {
+        font-size: 50px;
+    }
+
+    #services .container .heading h3 {
+        font-size: 50px;
+    }
+
+    #services .container .heading-2 h3 {
+        font-size: 50px;
+    }
+
+    #download .container .text h3 {
+        width: 452px;
+        font-size: 40px;
+    }
+
+    #footer .right {
+        gap: 66px;
+    }
+
+
+}
+
+/* ========================================================= */
+
+@media (min-width: 991.99px) {
+    
+    .term .t-card
+    {
+        /* flex-direction: column; */
+        justify-content: center;
+        gap: 1rem;
+    }
+    #download h3 
+    {
+        font-size: 46px;
+    }
+
+    #download .container .text .btn-1 a {
+        padding: 18px 32px;
+    }
+
+}
+
+
+/* ========================================================= */
+
+
+@media (max-width: 767.99px) {
+    
+    
+
+    .term .t-card
+    {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #download .phone
+    {
+        justify-content: center;
+    }
+    /* #download h3 
+    {
+        font-size: 46px;
+    } */
+
+    #banner .container .left
+    {
+        margin-bottom: 2rem;
+    }
+
+    #about .container .left-a
+    {
+        display: none;
+    }
+
+    #about .container .right h3 {
+        max-width: 534px;
+        font-size: 50px;
+    }
+    #download .container .text h3 {
+        width: 520px;
+    }
+    
+}
+
+/* ========================================================= */
+
+
 @media (max-width: 575.99px) {
 
     .row>* {
@@ -31,11 +203,12 @@
     }
 
     #banner {
-        padding: 0 0 75px 0;
+        padding: 0 0 50px 0;
+        text-align: center;
     }
 
     #banner .container .left h1 {
-        width: 100%;
+        width: 340px;
         font-size: 35px;
         margin-bottom: 20px;
     }
@@ -57,7 +230,9 @@
     }
 
     #about {
-        padding: 0 0 50px 0;
+        padding: 0 0 50px 0;        
+        text-align: center;
+
     }
 
     #about .container .left  {
@@ -66,6 +241,7 @@
 
     #about .container .right h3 {
         font-size: 35px;
+        width: 342px;
     }
 
     #about .container .right p {
@@ -115,4 +291,34 @@
         margin: 0;
     }
 
+    .term .t-card
+    {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    #download .container .text h3 {
+        width: 350px;
+    }
+
+    #download .container .text .btn-1 a {
+        padding: 14px 30px;
+        font-size: 18px;
+    }
+
+    #download .container .text p {
+        width: 434px;
+        color: #2A2C41;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        margin-bottom: 45px;
+    }
+
 }
+
+
+
+
+

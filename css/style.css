@@ -7,6 +7,8 @@
 }
 
 ul, ol {
+    padding: 0;
+    margin: 0;
     list-style-type: none;
 }
 
@@ -131,8 +133,6 @@ h2 {
     height: 436.361px;
     background: url("../images/mockup-graphics-Dhs0h7LdlN4-unsplash.jpg");
     border-radius: 50%;
-    /* object-fit: cover; */
-    /* overflow: hidden; */
     background-position: 53.5% 45%;
     background-size: 147%;
 }
@@ -152,7 +152,9 @@ h2 {
 
 #about .container .left .left-b {
     border-radius: 25px;
-    background: #D9D9D9;
+    background: url('https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
     width: 348px;
     height: 440px;
 }
@@ -163,14 +165,18 @@ h2 {
 
 #about .container .left .left-d {
     border-radius: 25px;
-    background: #D9D9D9;
+    background: url('https://images.pexels.com/photos/824635/pexels-photo-824635.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
     width: 241px;
     height: 202px;
 }
 
 #about .container .left .left-e {
     border-radius: 25px;
-    background: #D9D9D9;
+    background: url('https://images.pexels.com/photos/289368/pexels-photo-289368.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
     width: 201px;
     height: 320px;
 }
@@ -248,12 +254,28 @@ h2 {
     align-items: center;
     gap: 28px;
 }
+#recommend .container .card-box .card .image2
+{
+    background: url('https://img.freepik.com/premium-photo/spaghetti-with-black-plate_250469-8174.jpg');
+}
+#recommend .container .card-box .card .image3
+{
+    background: url('https://images.pexels.com/photos/7627422/pexels-photo-7627422.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
 
-#recommend .container .card-box .card .image {
+#recommend .container .card-box .card .image 
+{
     width: 192.308px;
-    height: 195.414px;
-    background: #D9D9D9;
     border-radius: 50%;
+    height: 195.414px;
+    background-size: cover;
+    background-position: center;
+}
+#recommend .container .card-box .card .image1
+{
+    background: url('https://images.pexels.com/photos/8472635/pexels-photo-8472635.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: 120%;
+    background-position: center;
 }
 
 #recommend .container .card-box .card .txt {
@@ -315,19 +337,66 @@ h2 {
 }
 
 
-#services .container .card {
+#services .container .card 
+{
     width: 160px;
     height: 180px;
     border: 0;
     border-radius: 25px;
-    background: #FFF;
+    /* background: #FFF; */
     margin: 0 auto;
 }
 
-#services .container .card.active {
-    background: linear-gradient(270deg, #FF5A2F -2.47%, #FF6C44 103.28%);
+#services .container .card:hover {
+    transition: all linear 0.3s;
     box-shadow: 0px 30px 50px 0px rgba(107, 107, 107, 0.25);
 }
+
+#services .container .card1
+{
+    background: url('../images/icons/Fast delivery.svg');
+}
+#services .container .card1:hover
+{
+    background: url('../images/icons/Fast delivery2.svg');
+}
+
+#services .container .card2
+{
+    background: url('../images/icons/Easy to order.svg');
+}
+#services .container .card2:hover
+{
+    background: url('../images/icons/Easy to order2.svg');
+}
+
+#services .container .card3
+{
+    background: url('../images/icons/Have outlets.svg');
+}
+#services .container .card3:hover
+{
+    background: url('../images/icons/Have outlets2.svg');
+}
+
+#services .container .card4
+{
+    background: url('../images/icons/Securely packed.svg');
+}
+#services .container .card4:hover
+{
+    background: url('../images/icons/Securely packed2.svg');
+}
+
+#services .container .card5
+{
+    background: url('../images/icons/Cash on delivery.svg');
+}
+#services .container .card5:hover
+{
+    background: url('../images/icons/Cash on delivery2.svg');
+}
+
 
 #services .container .card-box p {
     margin: 25px 24px;
@@ -359,7 +428,9 @@ h2 {
     width: 346px;
     height: 397px;
     border-radius: 25px;
-    background: #D9D9D9;
+    background: url('https://images.pexels.com/photos/5920774/pexels-photo-5920774.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
     position: relative;
 }
 
@@ -424,8 +495,112 @@ h2 {
     color: #FF5A2F;
 }
 
-#download .container .text .btn-1 {
+#download .container .text .btn-1 
+{
     column-gap: 25px;
+}
+
+#download .container .phone-img
+{
+    width: 362.336px;
+    height: 602px;
+    border-radius: 31.272px 31.272px 0 0;
+    background: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#download .container .phone-img .img
+{
+    width: 336px;
+    height: 588px;
+    border-radius: 30.19px 30.19px 0 0;
+    background: url('../images/app.jpg');
+}
+
+/* #download .container .phone
+{
+    height: 602px;
+    background: url('../images/phone.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+
+/* border-radius: 25px;
+background: var(--FFFFFFF, #FFF);
+box-shadow: 0px 30px 50px 0px rgba(107, 107, 107, 0.25); */
+
+
+/* ========= Download End =========  */
+
+
+/* ========= Footer Start =========  */
+
+#footer
+{
+    width: 100%;
+    background: #1E1E1E;
+    color: #E6E6E6;
+}
+
+#footer .up
+{
+    padding: 104px 0 112px;
+    border-bottom: 1px solid #363636;
+}
+
+#footer .left ul
+{
+    gap: 20px;
+}
+
+#footer .left p 
+{
+    width: 369px;
+    font-family: "Josefin Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    margin: 40px 0 30px;
+}
+
+#footer .right
+{
+    gap: 80px;
+}
+
+#footer .right .heading
+{
+    color: #FFF;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+#footer .right li 
+{
+    color: #E6E6E6;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 159.091% */
+    margin-bottom: 20px;
+}
+
+#footer .down 
+{
+    color: #E6E6E6;
+    font-family: "Josefin Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 35px 0 32px;
 }
 
 
@@ -436,4 +611,6 @@ h2 {
 
 
 
-/* ========= Download End =========  */
+/* ========= Footer End =========  */
+
+
