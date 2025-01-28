@@ -101,6 +101,9 @@
         gap: 66px;
     }
 
+    #footer .down a {
+        font-size: 20px;
+    }
 
 }
 
@@ -308,12 +311,11 @@
 
     #download .container .text p {
         width: 394px;
-        color: #2A2C41;
         font-size: 22px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 35px;
-        margin-bottom: 45px;
+    }
+
+    #footer .down a {
+        font-size: 16px;
     }
 
 }
