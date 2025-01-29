@@ -424,11 +424,24 @@ h2 {
     margin-bottom: 60px;
 }
 
+#services .term .t-card .card1
+{
+    background: url('../images/team-3.jpg');
+}
+#services .term .t-card .card2
+{
+    background: url('../images/team-2.jpg');
+}
+#services .term .t-card .card3
+{
+    background: url('../images/team-4.jpg');
+}
+
 #services .term .t-card .card-box-2 {
     width: 346px;
     height: 397px;
     border-radius: 25px;
-    background: url('https://images.pexels.com/photos/5920774/pexels-photo-5920774.jpeg?auto=compress&cs=tinysrgb&w=600');
+    /* background: url('https://images.pexels.com/photos/5920774/pexels-photo-5920774.jpeg?auto=compress&cs=tinysrgb&w=600'); */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -515,7 +528,7 @@ h2 {
 {
     width: 336px;
     height: 588px;
-    border-radius: 30.19px 30.19px 0 0;
+    border-radius: 32.75px 32.75px 0 0;
     background: url('../images/app.jpg');
 }
 
@@ -569,7 +582,7 @@ box-shadow: 0px 30px 50px 0px rgba(107, 107, 107, 0.25); */
 
 #footer .right
 {
-    gap: 80px;
+    gap: 76px;
 }
 
 #footer .right .heading

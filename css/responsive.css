@@ -212,6 +212,7 @@
 
     #banner .container .left h1 {
         width: 340px;
+        width: 100%;
         font-size: 35px;
         margin-bottom: 20px;
     }
@@ -245,6 +246,7 @@
     #about .container .right h3 {
         font-size: 35px;
         width: 342px;
+        width: 100%;
     }
 
     #about .container .right p {
